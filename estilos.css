@@ -1,0 +1,85 @@
+* {
+	padding:0;
+	margin:0;
+}
+body{
+    width: 100%;
+    font-family: 'lato';
+
+}
+.parallaxx{
+    width: 100%;
+    height: 100vh;
+    background-image: url('hero.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto-hero{
+    background: #fff;
+    padding: 18px;
+    width: 320px;
+    text-align: center;  
+    color: #000;
+
+}
+h2{
+     font-size: 32px;
+     font-weight: 300;
+}
+
+.centrar{
+    max-width: 1100px;
+    width: 90%;
+    overflow: hidden;
+    margin: auto;
+    text-align: center;
+
+}
+
+.espacio{
+    padding: 30px 0 60px 0;
+
+}
+
+.espacio h2 {
+    text-align: center;
+    padding :  30px;
+}
+
+.espacio p{
+    text-align: justify ;
+}
+
+.parallaxchico{
+    height: 450px;
+    background-image: url(fondo1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+.parallaxchico h2{
+    display: flex;
+    height: inherit;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+}
+.textoht{
+    background: #cccc;
+    height: 190px;
+}
+.textoht h2{
+    text-align: center;
+    color: #000;
+    display: flex;
+    height: inherit;
+    justify-content: center;
+    align-items: center;
+}
